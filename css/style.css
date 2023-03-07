@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    background-image:   url(/img/bgc.png);
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.screen__header{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__info{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: white;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.menu__item{
+    padding: 11px 107px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+    border: 1px solid white;
+}
+.first{
+    border-left: none;
+}
+.last{
+    border-right: none;
+}
+
+.screen__btn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 583px;
+    padding-bottom: 0px;
+}
+.button{
+    padding: 15px 30px;
+    background-color: #998431;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.note{
+    display: flex;
+    justify-content: center;
+    height: 856px;
+    background: #282828;
+}
+
+.note__block{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 1110px;
+    height: 656px;
+    border: 1px solid #c4c4c4;
+}
+.block__title{
+    margin-top: 60px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.block__line{
+    width: 160px;
+    border: 1px solid white;
+}
+.block__text{
+    width: 733px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.block__img{
+    width: 160px;
+    height: 160px;
+}
