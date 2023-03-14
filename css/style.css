@@ -45,9 +45,7 @@
     color: white;
     border: 1px solid white;
 }
-.first{
-    border-left: none;
-}
+
 .last{
     border-right: none;
 }
@@ -365,8 +363,8 @@ input{
 }
 .all__coc_net{
     display: flex;
-    /* border-top: 1px solid #ffffff ; */
-    /* border-bottom: 1px solid #ffffff ; */
+    border-top: 1px solid #ffffff ;
+    border-bottom: 1px solid #ffffff ;
 }
 .soc_net__item{
     padding: 19px 55px;
@@ -378,18 +376,22 @@ input{
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    /* border-left: 1px solid #FFFFFF; */
+    /* border: 1px solid #FFFFFF; */
+    border-left: 1px solid #FFFFFF;
     /* border-right: 1px solid #FFFFFF; */
 }
 .soc_net{
     display: flex;
     align-items: center;
     gap: 35px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid #FFFFFF;
 }
 i{
     padding: 17px 0;
     color: #FFFFFF;
 }
+.first{
+    border-left: none;
+}`
